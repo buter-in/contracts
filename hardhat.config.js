@@ -7,6 +7,11 @@ module.exports = {
     hardhat: {
       chainId: 31337
     },
+    mainnet: {
+      chainId: 1,
+      url: "http://15.204.161.234:8545",
+      accounts: [process.env.SBT_DEPLOYER_PRIVATE_KEY]
+    },
     bnbtestnet: {
       chainId: 97,
       url: "https://data-seed-prebsc-1-s2.binance.org:8545",
